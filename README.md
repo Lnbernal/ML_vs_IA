@@ -1,5 +1,5 @@
 # ML_vs_IA
-Bienvenido
+
 **_Punto B - Juan Hernández_**
 Diferencias Clave IA vs ML
 
