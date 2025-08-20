@@ -1,6 +1,6 @@
 # ML_vs_IA
 
-**_Carlos Romero - D-CONCLUSIONES-SINTESIS_**
+**_Carlos Romero - D-CONCLUSIONES_**
 **Síntesis:**
 La **Inteligencia Artificial (IA)** es el campo de la informática que busca crear sistemas capaces de realizar tareas que normalmente requieren inteligencia humana, como el razonamiento, la percepción y la toma de decisiones.
 Dentro de la IA, el **Aprendizaje Automático (Machine Learning, ML)** es una rama que permite a las máquinas aprender patrones a partir de datos y mejorar su desempeño sin ser programadas explícitamente para cada tarea.
