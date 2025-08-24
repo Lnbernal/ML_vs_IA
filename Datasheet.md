@@ -25,8 +25,8 @@ Arreglo desde lista: [1 2 3 4 5]
 ---
 
 - Matrices
-np.zeros((m,n)) → Genera una matriz de ceros.
-np.ones((m,n)) → Genera una matriz de unos.
+np.zeros((m,n)) → Genera una matriz de ceros.  
+np.ones((m,n)) → Genera una matriz de unos.  
 
 - ej:
 ```python
