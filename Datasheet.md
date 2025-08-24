@@ -16,7 +16,7 @@ import numpy as np  # Importamos la librería
 print("=== Creación de Arreglos ===")
 arreglo1 = np.array([1, 2, 3, 4, 5])
 print("Arreglo desde lista:", arreglo1)
-```
+
 - Esto nos devuelve:
 
 === Creación de Arreglos ===
@@ -38,7 +38,7 @@ ceros = np.zeros((3,3))   # Matriz 3x3 de ceros
 unos = np.ones((2,4))     # Matriz 2x4 de unos
 print("Matriz de ceros:\n", ceros)
 print("Matriz de unos:\n", unos)
-```
+
 - esto nos devuelve
 
 === Crear un arreglo de ceros y unos ===
@@ -71,7 +71,7 @@ suma = a + b
 multiplicacion = a * b
 print("Suma:", suma)
 print("Multiplicación:", multiplicacion)
-```
+
 
 - Esto nos devuelve:
 
@@ -102,7 +102,7 @@ minimo = np.min(datos)
 print("Promedio:", promedio)
 print("Máximo:", maximo)
 print("Mínimo:", minimo)
-```
+
 
 - Esto nos devuelve:
 
@@ -125,7 +125,7 @@ np.arange(inicio, fin, paso) genera un arreglo en un rango definido.
 print("\n=== Uso de np.arange ===")
 rango = np.arange(0, 10, 2)  # Desde 0 hasta 8, con paso de 2
 print("np.arange(0, 10, 2):", rango)
-```
+
 
 - Esto nos devuelve:
 
@@ -146,7 +146,7 @@ np.linspace(inicio, fin, num) genera un arreglo con valores igualmente espaciado
 print("\n=== Uso de np.linspace ===")
 linea = np.linspace(0, 1, 5)  # 5 valores entre 0 y 1
 print("np.linspace(0, 1, 5):", linea)
-```
+
 
 - Esto nos devuelve:
 
@@ -175,7 +175,7 @@ print("Arreglo:\n", arr)
 print("Dimensiones (shape):", arr.shape)
 print("Número de elementos (size):", arr.size)
 print("Tipo de datos (dtype):", arr.dtype)
-```
+
 
 - Esto nos devuelve:
 
