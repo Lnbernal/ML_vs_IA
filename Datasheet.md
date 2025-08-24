@@ -16,12 +16,12 @@ import numpy as np  # Importamos la librería
 print("=== Creación de Arreglos ===")
 arreglo1 = np.array([1, 2, 3, 4, 5])
 print("Arreglo desde lista:", arreglo1)
-
+```
 - Esto nos devuelve:
-
+```python
 === Creación de Arreglos ===
 Arreglo desde lista: [1 2 3 4 5]
-
+```
 ---
 
 - Matrices
