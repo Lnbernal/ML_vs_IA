@@ -138,7 +138,7 @@ print(df.dtypes)  # Ver tipos de cada columna
 # Convertir tipo de dato
 df["Edad"] = df["Edad"].astype(float)  # Convertir Edad a float
 print("\nEdad convertida a float:\n", df.dtypes)
-```python
+```
 
 **Salida:**
 ```python
