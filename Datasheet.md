@@ -1,3 +1,6 @@
+Semana 2 Comandos principales de Numpy - Machine Learning 601N
+
+Nicolas Bernal A-numpy-arreglos
 # Introducion
 NumPy (Numerical Python) es una biblioteca de código abierto para Python que proporciona soporte para trabajar con vectores y matrices multidimensionales de alto rendimiento, junto con una colección de funciones matemáticas y lógicas para operarlas
 ## A) Arreglos en Numpy
@@ -191,3 +194,5 @@ Dimensiones (shape): (2, 3)
 Número de elementos (size): 6
 Tipo de datos (dtype): int32
 ```
+=======
+
