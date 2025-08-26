@@ -15,7 +15,7 @@ Pandas es una librería de Python diseñada para el análisis y manipulación de
 pd.Series(lista) → Crea una serie unidimensional con índices asociados.
 
 **Código:**
-
+```python
 import pandas as pd   # Importamos la librería
 
 # ============================
@@ -24,14 +24,17 @@ import pandas as pd   # Importamos la librería
 print("=== Creación de Series ===")
 serie1 = pd.Series([10, 20, 30, 40], index=["a", "b", "c", "d"])  # Serie con índices personalizados
 print("Serie creada:\n", serie1)
+```
 
 **Salida:**
+```python
 === Creación de Series ===
 a    10
 b    20
 c    30
 d    40
 dtype: int64
+```
 
 **Explicación:**
 
@@ -46,7 +49,7 @@ Al imprimirla, se muestra cada valor con su índice correspondiente.
 pd.DataFrame(diccionario) → Crea un DataFrame (tabla) a partir de un diccionario.
 
 **Código:**
-
+```python
 # ============================
 # 2. Creación de DataFrames
 # ============================
@@ -58,16 +61,16 @@ datos = {
 }
 df = pd.DataFrame(datos)   # Se crea el DataFrame
 print(df)
-
+```
 
 **Salida:**
-
+```python
 === Creación de DataFrame ===
   Nombre  Edad    Ciudad
 0    Ana    23    Bogotá
 1   Luis    30  Medellín
 2  Pedro    21      Cali
-
+```
 
 **Explicación:**
 
@@ -80,7 +83,7 @@ pd.DataFrame(datos) convierte ese diccionario en una tabla.
 Podemos acceder a columnas completas o filas específicas.
 
 **Código:**
-
+```python
 # ============================
 # 3. Selección de Datos
 # ============================
@@ -88,10 +91,10 @@ print("=== Selección de Datos ===")
 print("Columna Nombre:\n", df["Nombre"])       # Seleccionar una columna
 print("\nFila por índice (iloc[0]):\n", df.iloc[0])  # Fila por posición
 print("\nFila por etiqueta (loc[1]):\n", df.loc[1])  # Fila por índice/etiqueta
-
+```
 
 **Salida:**
-
+```python
 === Selección de Datos ===
 Columna Nombre:
 0     Ana
@@ -110,7 +113,7 @@ Nombre        Luis
 Edad            30
 Ciudad    Medellín
 Name: 1, dtype: object
-
+```
 
 **Explicación:**
 
@@ -125,7 +128,7 @@ df.loc[1] → Selecciona la fila con índice 1.
 Podemos revisar y modificar los tipos de datos de cada columna.
 
 **Código:**
-
+```python
 # ============================
 # 4. Tipos de Datos
 # ============================
@@ -135,10 +138,10 @@ print(df.dtypes)  # Ver tipos de cada columna
 # Convertir tipo de dato
 df["Edad"] = df["Edad"].astype(float)  # Convertir Edad a float
 print("\nEdad convertida a float:\n", df.dtypes)
-
+```python
 
 **Salida:**
-
+```python
 === Tipos de Datos ===
 Nombre    object
 Edad       int64
@@ -150,7 +153,7 @@ Nombre     object
 Edad      float64
 Ciudad     object
 dtype: object
-
+```
 **Explicación:**
 
 df.dtypes muestra el tipo de cada columna (números, texto, etc.).
